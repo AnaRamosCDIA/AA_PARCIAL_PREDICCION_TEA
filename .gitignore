@@ -87,3 +87,14 @@ target/
 
 # Mypy cache
 .mypy_cache/
+# Ignorar todo lo que haya dentro de /data
+data/*
+
+# Exceptuar el dataset procesado
+!data/processed/
+!data/processed/Dataset_Procesado.csv
+# Habilitar seguimiento de datos procesados
+!data/
+!data/processed/
+!data/processed/Dataset_Procesado.csv
+
