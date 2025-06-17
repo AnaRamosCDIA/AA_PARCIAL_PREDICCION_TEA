@@ -96,3 +96,5 @@ Este trabajo propone un modelo funcional que podría utilizarse como herramienta
 
 - 📄 [`Descripcion_Dataset_Original.pdf`](reports/Descripcion_Dataset_Original.pdf)
 - 📄 [`Descripcion_Dataset_Procesado.pdf`](reports/Descripcion_Dataset_Procesado.pdf)
+- 📄 [`Conclusiones.pdf`](reports/Conclusiones.pdf)
+
