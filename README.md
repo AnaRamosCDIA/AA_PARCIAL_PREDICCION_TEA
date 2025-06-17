@@ -1,57 +1,88 @@
-Prediccion_TEA_Infancia
-==============================
+# Predicción del Trastorno del Espectro Autista en Niños mediante Aprendizaje Automático
 
-Desarrollo de modelos de aprendizaje automático para la predicción temprana del Trastorno del Espectro Autista (TEA) en niños.
+![Imagen de portada](reports/portada_proyecto_autismo.jpg)
 
-Project Organization
-------------
+## 📚 Índice
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+- [1. Descripción del Proyecto](#1-descripción-del-proyecto)
+- [2. Objetivos](#2-objetivos)
+- [3. Relevancia del Problema](#3-relevancia-del-problema)
+  - [3.1. Preguntas de Investigación e Hipótesis](#31-preguntas-de-investigación-e-hipótesis)
+- [4. Tipo de Problema](#4-tipo-de-problema)
+- [5. Modelos y Evaluación](#5-modelos-y-evaluación)
+- [6. Conclusiones Generales](#6-conclusiones-generales)
+- [📁 Notebooks del Proyecto](#notebooks-del-proyecto)
+- [📝 Informes Técnicos del Proyecto](#informes-técnicos-del-proyecto)
 
+---
 
---------
+## 1. Descripción del Proyecto
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Este proyecto investiga la viabilidad de aplicar técnicas de Aprendizaje Automático para predecir indicadores del Trastorno del Espectro Autista (TEA) en niños, basándose en datos de tamizaje y variables sociodemográficas. El objetivo es construir modelos que permitan identificar casos compatibles con el TEA de forma temprana, especialmente en contextos con acceso limitado a diagnóstico especializado como Tierra del Fuego.
+
+## 2. Objetivos
+
+### General
+Desarrollar un modelo de clasificación binaria que prediga la presencia de indicios de TEA en niños.
+
+### Específicos
+- Realizar EDA y limpieza del dataset.
+- Entrenar Regresión Logística, Árbol de Decisión y Random Forest.
+- Comparar métricas de desempeño.
+- Evaluar aplicabilidad real del modelo en contextos como Tierra del Fuego.
+
+## 3. Relevancia del Problema
+
+El diagnóstico temprano del TEA mejora significativamente la intervención en salud y educación. Este proyecto ofrece una herramienta de apoyo que puede servir para priorizar derivaciones clínicas en zonas con dificultades de acceso al diagnóstico.
+
+### 3.1. Preguntas e Hipótesis
+
+- ¿Puede predecirse el TEA con datos de tamizaje?
+- ¿Qué variables son más relevantes?
+- ¿Qué modelo tiene mejor rendimiento?
+- ¿Puede aportar valor en contextos de acceso limitado?
+
+Hipótesis:
+- H1: Se puede predecir TEA con buena precisión.
+- H2: Variables sociodemográficas influyen.
+- H3: Random Forest tendrá mejor F1-score.
+- H4: El modelo puede ayudar a mejorar la derivación en Tierra del Fuego.
+
+## 4. Tipo de Problema
+
+Clasificación binaria supervisada. Variable objetivo: `Clase_TEA` (0 = no indicios, 1 = indicios de TEA).
+
+## 5. Modelos y Evaluación
+
+Modelos implementados:
+- Regresión Logística
+- Árbol de Decisión
+- Random Forest
+
+Métricas utilizadas:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Matriz de Confusión
+- AUC-ROC y Curva PR (solo en RF optimizado)
+
+## 6. Conclusiones Generales
+
+- La Regresión Logística logró mayor precisión global (98%).
+- Random Forest alcanzó mejor balance entre precisión y recall (F1 = 0.91).
+- Árbol de Decisión fue útil para interpretabilidad.
+- Este modelo puede servir como apoyo a decisiones clínicas y educativas en Tierra del Fuego.
+
+---
+
+## 📁 Notebooks del Proyecto
+
+- 📘 [`EDA_TEA_INFANCIA.ipynb`](notebooks/EDA_TEA_INFANCIA.ipynb)
+- 🤖 [`Modelos_Predictivos_TEA.ipynb`](notebooks/Modelos_Predictivos_TEA.ipynb)
+- 🧪 [`Notebook_Validacion_Optimizacion_Metricas_TEA.ipynb`](notebooks/Notebook_Validacion_Optimizacion_Metricas_TEA.ipynb)
+
+## 📝 Informes Técnicos del Proyecto
+
+- 📄 [`Descripcion_Dataset_Original.pdf`](reports/Descripcion_Dataset_Original.pdf)
+- 📄 [`Descripcion_Dataset_Procesado.pdf`](reports/Descripcion_Dataset_Procesado.pdf)
