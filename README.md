@@ -13,9 +13,9 @@
 - [6. Conclusiones Generales](#6-conclusiones-generales)
 - [7. Mejor modelo seleccionado](#7-Mejor-Modelo-Seleccionado)
 - [8. Aporte a Tierra del Fuego](#8-Aporte-a-Tierra-del-Fuego)
-- [📁 Notebooks del Proyecto](#notebooks-del-proyecto)
-- [📝 Informes Técnicos del Proyecto](#informes-técnicos-del-proyecto)
-- [🎥 Presentación del Proyecto](#presentación-del-proyecto)
+- [9. Notebooks del Proyecto](#notebooks-del-proyecto)
+- [10. Informes Técnicos del Proyecto](#informes-técnicos-del-proyecto)
+- [11. Presentación del Proyecto](#presentación-del-proyecto)
 
 ---
 
@@ -92,19 +92,19 @@ De acuerdo con la validación cruzada (accuracy promedio de 94.8%), la optimizac
 
 Este trabajo propone un modelo funcional que podría utilizarse como herramienta de apoyo en centros educativos o instituciones de salud primaria en Tierra del Fuego, donde el acceso a diagnóstico especializado es limitado. Su aplicación permitiría priorizar derivaciones y reducir los tiempos de espera, favoreciendo la detección e intervención temprana, con un enfoque ético y adaptado al contexto local.
 
-## 📁 Notebooks del Proyecto
+## 9. Notebooks del Proyecto
 
 - 📘 [`EDA_TEA_INFANCIA.ipynb`](notebooks/EDA_TEA_INFANCIA.ipynb)
 - 🤖 [`Modelos_Predictivos_TEA.ipynb`](notebooks/Modelos_Predictivos_TEA.ipynb)
 - 🧪 [`Validacion_Optimizacion_Metricas_TEA.ipynb`](notebooks/Validacion_Optimizacion_Metricas_TEA.ipynb)
 
-## 📝 Informes Técnicos del Proyecto
+## 10. Informes Técnicos del Proyecto
 
 - 📄 [`Descripcion_Dataset_Original.pdf`](reports/Descripcion_Dataset_Original.pdf)
 - 📄 [`Descripcion_Dataset_Procesado.pdf`](reports/Descripcion_Dataset_Procesado.pdf)
 - 📄 [`Conclusiones.pdf`](reports/Conclusiones.pdf)
 
-## 🎥 Presentación del Proyecto
+## 11. Presentación del Proyecto
 
 Podés acceder al video de presentación en el siguiente enlace de Google Drive:
 
