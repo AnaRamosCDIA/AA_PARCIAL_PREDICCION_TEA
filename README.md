@@ -14,8 +14,8 @@
 - [7. Mejor modelo seleccionado](#7-Mejor-Modelo-Seleccionado)
 - [8. Aporte a Tierra del Fuego](#8-Aporte-a-Tierra-del-Fuego)
 - [9. Notebooks del Proyecto](#9-notebooks-del-proyecto)
-- [10. Informes Técnicos del Proyecto](#10-informes-tecnicos-del-proyecto)
-- [11. Presentación del Proyecto](#11-presentacion-del-proyecto)
+- [10. Informes Tecnicos del Proyecto](#10-informes-tecnicos-del-proyecto)
+- [11. Video Presentacion del Proyecto](#11-Video-presentacion-del-proyecto)
 ---
 
 ## 1. Descripción del Proyecto
@@ -103,7 +103,7 @@ Este trabajo propone un modelo funcional que podría utilizarse como herramienta
 - 📄 [`Descripcion_Dataset_Procesado.pdf`](reports/Descripcion_Dataset_Procesado.pdf)
 - 📄 [`Conclusiones.pdf`](reports/Conclusiones.pdf)
 
-## 11. Presentación del Proyecto
+## 11. Video Presentación del Proyecto
 
 Podés acceder al video de presentación en el siguiente enlace de Google Drive:
 
