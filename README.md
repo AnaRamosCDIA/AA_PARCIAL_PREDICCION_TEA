@@ -13,10 +13,9 @@
 - [6. Conclusiones Generales](#6-conclusiones-generales)
 - [7. Mejor modelo seleccionado](#7-Mejor-Modelo-Seleccionado)
 - [8. Aporte a Tierra del Fuego](#8-Aporte-a-Tierra-del-Fuego)
-- [9. Notebooks del Proyecto](#notebooks-del-proyecto)
-- [10. Informes Técnicos del Proyecto](#informes-técnicos-del-proyecto)
-- [11. Presentación del Proyecto](#presentación-del-proyecto)
-
+- 📘 [9. Notebooks del Proyecto](#9-notebooks-del-proyecto)
+- 📄 [10. Informes Técnicos del Proyecto](#10-informes-tecnicos-del-proyecto)
+- 🎥 [11. Presentación del Proyecto](#11-presentacion-del-proyecto)
 ---
 
 ## 1. Descripción del Proyecto
@@ -95,8 +94,8 @@ Este trabajo propone un modelo funcional que podría utilizarse como herramienta
 ## 9. Notebooks del Proyecto
 
 - 📘 [`EDA_TEA_INFANCIA.ipynb`](notebooks/EDA_TEA_INFANCIA.ipynb)
-- 🤖 [`Modelos_Predictivos_TEA.ipynb`](notebooks/Modelos_Predictivos_TEA.ipynb)
-- 🧪 [`Validacion_Optimizacion_Metricas_TEA.ipynb`](notebooks/Validacion_Optimizacion_Metricas_TEA.ipynb)
+- 📘 [`Modelos_Predictivos_TEA.ipynb`](notebooks/Modelos_Predictivos_TEA.ipynb)
+- 📘 [`Validacion_Optimizacion_Metricas_TEA.ipynb`](notebooks/Validacion_Optimizacion_Metricas_TEA.ipynb)
 
 ## 10. Informes Técnicos del Proyecto
 
@@ -108,7 +107,7 @@ Este trabajo propone un modelo funcional que podría utilizarse como herramienta
 
 Podés acceder al video de presentación en el siguiente enlace de Google Drive:
 
-[📂 Ver video en Google Drive](https://drive.google.com/file/d/19OvDQnVg9FBSFvwIkMHrG7MivOcxXeO2/view?usp=sharing)
+[🎥 Ver video en Google Drive](https://drive.google.com/file/d/19OvDQnVg9FBSFvwIkMHrG7MivOcxXeO2/view?usp=sharing)
 
 > Este video resume el objetivo, metodología y resultados clave del proyecto de predicción de TEA en niños mediante Aprendizaje Automático.
 
