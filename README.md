@@ -13,9 +13,9 @@
 - [6. Conclusiones Generales](#6-conclusiones-generales)
 - [7. Mejor modelo seleccionado](#7-Mejor-Modelo-Seleccionado)
 - [8. Aporte a Tierra del Fuego](#8-Aporte-a-Tierra-del-Fuego)
-- 📘 [9. Notebooks del Proyecto](#9-notebooks-del-proyecto)
-- 📄 [10. Informes Técnicos del Proyecto](#10-informes-tecnicos-del-proyecto)
-- 🎥 [11. Presentación del Proyecto](#11-presentacion-del-proyecto)
+- [9. Notebooks del Proyecto](#9-notebooks-del-proyecto)
+- [10. Informes Técnicos del Proyecto](#10-informes-tecnicos-del-proyecto)
+- [11. Presentación del Proyecto](#11-presentacion-del-proyecto)
 ---
 
 ## 1. Descripción del Proyecto
