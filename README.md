@@ -15,12 +15,13 @@
 - [8. Aporte a Tierra del Fuego](#8-Aporte-a-Tierra-del-Fuego)
 - [📁 Notebooks del Proyecto](#notebooks-del-proyecto)
 - [📝 Informes Técnicos del Proyecto](#informes-técnicos-del-proyecto)
+- [🎥 Presentación del Proyecto](#presentación-del-proyecto)
 
 ---
 
 ## 1. Descripción del Proyecto
 
-Este proyecto investiga la viabilidad de aplicar técnicas de Aprendizaje Automático para predecir indicadores del Trastorno del Espectro Autista (TEA) en niños, basándose en datos de tamizaje y variables sociodemográficas. El objetivo es construir modelos que permitan identificar casos compatibles con el TEA de forma temprana, especialmente en contextos con acceso limitado a diagnóstico especializado como Tierra del Fuego.
+Este proyecto investiga la viabilidad de aplicar técnicas de Aprendizaje Automático para predecir indicadores del Trastorno del Espectro Autista (TEA) en niños, basándose en datos de tamizaje y variables sociodemográficas, entre otras. El objetivo es construir modelos que permitan identificar casos compatibles con el TEA de forma temprana, especialmente en contextos con acceso limitado a diagnóstico especializado como Tierra del Fuego.
 
 ## 2. Objetivos
 
@@ -74,10 +75,15 @@ Métricas utilizadas:
 
 ## 6. Conclusiones Generales
 
-- La Regresión Logística logró un desempeño excelente, con una precisión global del 98% y sin falsos negativos.
-- Random Forest alcanzó mejor balance entre precisión y recall (F1 = 0.91). El Random Forest optimizado mediante GridSearchCV, con parámetros max_depth=10, min_samples_split=5 y n_estimators=200, alcanzó una F1-score de 0.90 y mostró una robusta capacidad predictiva con curvas AUC-ROC y PR de 0.99.
-- Árbol de Decisión fue útil para interpretabilidad.
-- Las preguntas del cuestionario AQ-10-Child son las variables más predictivas para la detección de TEA, superando la relevancia de datos demográficos.
+- Regresión Logística demostró un desempeño sobresaliente en el conjunto de test, alcanzando una precisión global del 98% y sin falsos negativos, lo que la hace una opción confiable para tareas de cribado preliminar.
+
+- Random Forest, especialmente en su versión optimizada con GridSearchCV (n_estimators=200, max_depth=10, min_samples_split=5), fue el modelo más robusto y generalizable. Alcanzó un F1-score de 0.90, junto con métricas avanzadas sobresalientes: AUC-ROC = 0.99 y Curva PR = 0.99, además de una precisión promedio del 94.8% en validación cruzada, lo que indica una excelente capacidad para generalizar a nuevos datos.
+
+- Árbol de Decisión aportó interpretabilidad al revelar reglas claras y variables clave para la clasificación, aunque su rendimiento fue más limitado (accuracy del 78%).
+
+- Las variables más predictivas fueron las preguntas del cuestionario AQ-10-Child, que demostraron una mayor capacidad discriminante que las variables sociodemográficas.
+
+- **Conclusión:** El modelo **Random Forest optimizado** fue seleccionado como **el mejor modelo del proyecto por su excelente equilibrio entre rendimiento, estabilidad y capacidad de generalización.
 
 ## 7. Mejor Modelo Seleccionado
 De acuerdo con la validación cruzada (accuracy promedio de 94.8%), la optimización de hiperparámetros y las curvas de evaluación (AUC-ROC y PR = 0.99), el modelo más robusto y confiable fue el Random Forest optimizado. Si bien la Regresión Logística mostró un desempeño excelente en el conjunto de test (F1 = 0.98), el Random Forest demostró una mejor capacidad de generalización, siendo el más recomendable para implementación práctica en entornos reales.
@@ -97,4 +103,14 @@ Este trabajo propone un modelo funcional que podría utilizarse como herramienta
 - 📄 [`Descripcion_Dataset_Original.pdf`](reports/Descripcion_Dataset_Original.pdf)
 - 📄 [`Descripcion_Dataset_Procesado.pdf`](reports/Descripcion_Dataset_Procesado.pdf)
 - 📄 [`Conclusiones.pdf`](reports/Conclusiones.pdf)
+
+## 🎥 Presentación del Proyecto
+
+Podés acceder al video de presentación en el siguiente enlace de Google Drive:
+
+[📂 Ver video en Google Drive](https://drive.google.com/file/d/19OvDQnVg9FBSFvwIkMHrG7MivOcxXeO2/view?usp=sharing)
+
+> Este video resume el objetivo, metodología y resultados clave del proyecto de predicción de TEA en niños mediante Aprendizaje Automático.
+
+
 
